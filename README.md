@@ -1,0 +1,125 @@
+# QT Simple Sample
+
+A simple Qt application demonstrating the basic usage of `QMainWindow`, signal and slot mechanisms, and UI management using the Qt Designer. The project uses CMake for building, and it increments a counter displayed in the UI, with options to reset it to zero.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Project Overview
+
+This project showcases how to build a simple desktop application with Qt, utilizing the core concepts of the framework, including:
+- **QMainWindow**: The main window of the application.
+- **Signals and Slots**: For handling button clicks and updating the UI.
+- **Qt Designer**: For defining the UI layout.
+- **CMake**: A modern build system to compile the project.
+
+The app contains an increment button that increases a counter displayed on the screen, and a reset button to set the counter back to zero.
+
+---
+
+## Features
+
+- Increment a displayed counter using a button.
+- Reset the counter to zero with a separate button.
+- Simple and clean user interface (UI) created using **Qt Designer**.
+- Cross-platform with support for Linux, Windows, and macOS using **CMake**.
+
+---
+
+## Requirements
+
+Make sure you have the following installed before building the project:
+
+- **Qt 5.x or 6.x** (with the necessary Qt tools like Qt Designer)
+- **CMake 3.10+**
+- **A C++ Compiler** (e.g., GCC, Clang, or MSVC)
+- **Git** (optional, for cloning the repository)
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/TelloViz/QT-Simple-Sample.git  
+   cd QT-Simple-Sample  
+   ```
+2. **Configure the project with CMake:**
+   ```
+   mkdir build  
+   cd build  
+   cmake ..  
+   ```
+3. **Build the project:**
+
+   On Linux or macOS:
+   ```  
+   make  
+   ```
+   On Windows (using Visual Studio):  
+   ```
+   cmake --build . --config Release  
+   ```
+5. **Run the application:**
+
+   On Linux or macOS:  
+   ```
+   ./QT-Simple-Sample  
+   ```
+   On Windows:  
+
+   Run the `.exe` file generated in the `build` directory.
+
+---
+
+## Usage
+
+- Click the "Increment" button to increase the counter.
+- Click the "Reset" button to reset the counter to 0.
+
+This application is a simple demonstration of how signals and slots work in Qt.
+
+---
+
+## Project Structure
+
+Here's a breakdown of the project structure:
+
+- **CMakeLists.txt**: CMake configuration for building the project
+- **main.cpp**: Entry point of the application
+- **mainwindow.cpp**: Implementation of the MainWindow class
+- **mainwindow.h**: Declaration of the MainWindow class
+- **mainwindow.ui**: UI file defining the layout and design of the window
+- **.gitignore**: Files and directories to be ignored by Git
+- **README.md**: This file
+
+
+### Key Files:
+
+- **CMakeLists.txt**: Configures CMake to build the Qt application.
+- **main.cpp**: Contains the `main()` function, which is the entry point of the program.
+- **mainwindow.cpp/h**: Implements and declares the `MainWindow` class, which handles the UI logic.
+- **mainwindow.ui**: UI layout created with Qt Designer.
+
+---
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to submit pull requests or file issues. Please ensure that your code is well-commented and follows best practices.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
