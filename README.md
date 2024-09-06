@@ -35,52 +35,6 @@ The app contains an increment button that increases a counter displayed on the s
 
 ---
 
-## Requirements
-
-Make sure you have the following installed before building the project:
-
-- **Qt 5.x or 6.x** (with the necessary Qt tools like Qt Designer)
-- **CMake 3.10+**
-- **A C++ Compiler** (e.g., GCC, Clang, or MSVC)
-- **Git** (optional, for cloning the repository)
-
----
-
-## Installation
-
-1. **Clone the repository:**
-   ```
-   git clone https://github.com/TelloViz/QT-Simple-Sample.git  
-   cd QT-Simple-Sample  
-   ```
-2. **Configure the project with CMake:**
-   ```
-   mkdir build  
-   cd build  
-   cmake ..  
-   ```
-3. **Build the project:**
-
-   On Linux or macOS:
-   ```  
-   make  
-   ```
-   On Windows (using Visual Studio):  
-   ```
-   cmake --build . --config Release  
-   ```
-5. **Run the application:**
-
-   On Linux or macOS:  
-   ```
-   ./QT-Simple-Sample  
-   ```
-   On Windows:  
-
-   Run the `.exe` file generated in the `build` directory.
-
----
-
 ## Usage
 
 - Click the "Increment" button to increase the counter.
@@ -111,15 +65,4 @@ Here's a breakdown of the project structure:
 - **mainwindow.ui**: UI layout created with Qt Designer.
 
 ---
-
-## Contributing
-
-If you'd like to contribute to this project, feel free to submit pull requests or file issues. Please ensure that your code is well-commented and follows best practices.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 
