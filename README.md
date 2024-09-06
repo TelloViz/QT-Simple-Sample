@@ -5,12 +5,9 @@ A simple Qt application demonstrating the basic usage of `QMainWindow`, signal a
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
