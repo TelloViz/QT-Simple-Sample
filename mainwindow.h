@@ -28,10 +28,10 @@ public:
 
 private slots:
     // Slot for handling the click event of the increment button
-    void on_incrementButton_clicked();
+    void incrementClicked();  // Renamed from on_incrementButton_clicked
 
     // Slot for handling the click event of the reset button
-    void on_resetButton_clicked();
+    void resetClicked();      // Renamed from on_resetButton_clicked
 
 private:
     Ui::MainWindow *ui; // Pointer to the Ui::MainWindow class, which manages the UI components of the MainWindow
@@ -65,10 +65,10 @@ Public Section:
 
 Private Slots Section:
 
-    Slot for Increment Button (on_incrementButton_clicked()):
+    Slot for Increment Button (incrementClicked()):
         Handles the click event for an increment button (e.g., updates a counter).
 
-    Slot for Reset Button (on_resetButton_clicked()):
+    Slot for Reset Button (resetClicked()):
         Handles the click event for a reset button (e.g., resets the counter).
 
 Private Members:
