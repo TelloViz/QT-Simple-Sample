@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Declaration: Specifies the version of XML and the encoding used. -->
+
+<ui version="4.0">
+    <!-- Main UI container for the Qt Designer file, specifying version 4.0. -->
+
+    <class>MainWindow</class>
+    <!-- Declares the class name for the main window of the application. -->
+
+    <widget class="QMainWindow" name="MainWindow">
+        <!-- Main widget class for the window, derived from QMainWindow, with the name "MainWindow". -->
+
+        <property name="geometry">
+            <!-- Defines the initial size and position of the window. -->
+            <rect>
+                <!-- Rectangle specifying the geometry of the window. -->
+                <x>0</x> <!-- X coordinate of the top-left corner of the window. -->
+                <y>0</y> <!-- Y coordinate of the top-left corner of the window. -->
+                <width>400</width> <!-- Width of the window. -->
+                <height>300</height> <!-- Height of the window. -->
+            </rect>
+        </property>
+
+        <widget class="QWidget" name="centralwidget">
+            <!-- Central widget of the QMainWindow, derived from QWidget, with the name "centralwidget". -->
+
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <!-- Layout used to organize child widgets vertically, with the name "verticalLayout". -->
+
+                <item>
+                    <!-- A container for a widget within the layout. -->
+                    <widget class="QLabel" name="label">
+                        <!-- QLabel widget to display text, with the name "label". -->
+                        <property name="text">
+                            <string>0</string> <!-- Initial text displayed by the label. -->
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set> <!-- Text alignment for the label (centered). -->
+                        </property>
+                    </widget>
+                </item>
+
+                <item>
+                    <!-- A container for a widget within the layout. -->
+                    <widget class="QPushButton" name="incrementButton">
+                        <!-- QPushButton widget for incrementing the counter, with the name "incrementButton". -->
+                        <property name="text">
+                            <string>Increment</string> <!-- Text displayed on the button. -->
+                        </property>
+                    </widget>
+                </item>
+
+                <item>
+                    <!-- A container for a widget within the layout. -->
+                    <widget class="QPushButton" name="resetButton">
+                        <!-- QPushButton widget for resetting the counter, with the name "resetButton". -->
+                        <property name="text">
+                            <string>Reset</string> <!-- Text displayed on the button. -->
+                        </property>
+                    </widget>
+                </item>
+
+            </layout>
+        </widget>
+
+    </widget>
+
+    <resources/>
+    <!-- Placeholder for resource files (e.g., images, icons) used in the UI. -->
+
+    <connections/>
+    <!-- Placeholder for signal-slot connections in the UI, which define interactions between widgets. -->
+
+</ui>
+
+<!--
+Description of Each Section:
+
+1. XML Declaration:
+   - <?xml version="1.0" encoding="UTF-8"?>: Specifies XML version and character encoding.
+
+2. UI Container:
+   - <ui version="4.0">: Main container element for the Qt Designer UI file. Specifies the version of the UI file format.
+
+3. Main Window Class:
+   - <class>MainWindow</class>: Declares the class name for the main application window.
+
+4. Main Widget:
+   - <widget class="QMainWindow" name="MainWindow">: Defines the main window widget, using QMainWindow as the base class and naming it "MainWindow".
+
+5. Geometry Property:
+   - <property name="geometry">: Sets the initial size and position of the window using a rectangle.
+
+6. Central Widget:
+   - <widget class="QWidget" name="centralwidget">: Defines the central widget within the main window, using QWidget as the base class.
+
+7. Layout:
+   - <layout class="QVBoxLayout" name="verticalLayout">: Defines a vertical layout for arranging child widgets.
+
+8. Widgets:
+   - <widget class="QLabel" name="label">: Defines a label widget with initial text and alignment.
+   - <widget class="QPushButton" name="incrementButton">: Defines a button to increment a counter.
+   - <widget class="QPushButton" name="resetButton">: Defines a button to reset the counter.
+
+9. Resources and Connections:
+   - <resources/>: Placeholder for external resources used in the UI.
+   - <connections/>: Placeholder for signal-slot connections to handle interactions between widgets.
+-->

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_sample_program_FILE /home/lollisjosh/Desktop/sample_program/build/Desktop_Qt_6_7_2-Debug/sample_program)
+set(__QT_DEPLOY_TARGET_sample_program_TYPE EXECUTABLE)
